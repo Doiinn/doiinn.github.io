@@ -18,10 +18,7 @@
 
 <script>
 export default {
-  name: 'Header',
-  props: {
-    msg: String
-  }
+  name: 'Header'
 }
 </script>
 
@@ -32,6 +29,7 @@ export default {
 
 .container {
   font-family: 'PT Mono', monospace;
+  height: 100vh;
   padding: 24rem 2rem;
 }
 
