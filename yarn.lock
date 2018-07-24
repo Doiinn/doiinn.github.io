@@ -4161,10 +4161,6 @@ joi@^13.0.0:
     isemail "3.x.x"
     topo "3.x.x"
 
-jquery@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
-
 js-base64@^2.1.8:
   version "2.4.6"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.6.tgz#1d49f618bef43630cd191f4e122447acfdb947d8"
@@ -6226,6 +6222,10 @@ schema-utils@^0.4.0, schema-utils@^0.4.2, schema-utils@^0.4.3, schema-utils@^0.4
   dependencies:
     ajv "^6.1.0"
     ajv-keywords "^3.1.0"
+
+scrollreveal@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/scrollreveal/-/scrollreveal-3.4.0.tgz#77ce77b383d1883f2aafebdfc6f17a105718a780"
 
 scss-tokenizer@^0.2.3:
   version "0.2.3"
