@@ -2,6 +2,8 @@
   <div id="home">
     <Header/>
     <Profile/>
+    <Skills/>
+    <Experiences/>
   </div>
 </template>
 
@@ -9,6 +11,8 @@
 // @ is an alias to /src
 import Header from '@/components/Header.vue'
 import Profile from '@/components/Profile.vue'
+import Skills from '@/components/Skills.vue'
+import Experiences from '@/components/Experiences.vue'
 import ScrollReveal from 'scrollreveal'
 
 const sr = ScrollReveal({ reset: false })
@@ -17,7 +21,9 @@ export default {
   name: 'home',
   components: {
     Header,
-    Profile
+    Profile,
+    Skills,
+    Experiences
   },
   mounted: () => {
     sr.reveal('.profile', { duration: 1500, easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)', scale: 0.5 })
