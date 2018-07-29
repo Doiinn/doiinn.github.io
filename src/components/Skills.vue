@@ -6,6 +6,18 @@
           <h2>Skliis</h2>
         </div>
       </div>
+      <div class="row">
+        <div class="column">
+          <div class="group">
+            <div class="title">Language:</div>
+            <div class="detail">Thai (Native Speaker), English (Intermediate)</div>
+          </div>
+          <div class="group">
+            <div class="title">Programming:</div>
+            <div class="detail">Basic </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -18,6 +30,16 @@ export default {
 
 <style scoped lang="scss">
 $eng_font: "PT Mono", monospace;
+
+a {
+  text-decoration: none;
+  color:#29b777;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#29b777;
+}
 
 .skills {
   padding-bottom: 8em;
@@ -33,7 +55,7 @@ h2 {
   font-family: $eng_font;
   font-size: 1.4em;
   display: inline-block;
-  width: 6.7em;
+  width: 8em;
 }
 
 .detail {

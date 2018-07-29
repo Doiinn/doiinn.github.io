@@ -18,6 +18,24 @@
             <div class="sub-detail">(Aug 2014 - Jun 2018)</div>
             <div class="sub-detail">Bachelor of Science (Information Technology)</div>
           </div>
+          <div class="group">
+            <div class="title">E-mail:</div>
+            <div class="detail">
+              <a href="mailto:worapong.malaiwong@gmail.com">worapong.malaiwong@gmail.com</a>
+            </div>
+          </div>
+          <div class="group">
+            <div class="title">Github:</div>
+            <div class="detail">
+              <a href="https://github.com/doiinn">doiinn</a>
+            </div>
+          </div>
+          <div class="group">
+            <div class="title">Medium:</div>
+            <div class="detail">
+              <a href="https://medium.com/@doiinn">@doiinn</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -32,6 +50,16 @@ export default {
 
 <style scoped lang="scss">
 $eng_font: "PT Mono", monospace;
+
+a {
+  text-decoration: none;
+  color:#29b777;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#29b777;
+}
 
 .profile {
   padding-bottom: 8em;

@@ -27,6 +27,7 @@ export default {
   },
   mounted: () => {
     sr.reveal('.profile', { duration: 1500, easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)', scale: 0.5 })
+    sr.reveal('.skills', { duration: 1500, easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)', scale: 0.5 })
   }
 }
 </script>
