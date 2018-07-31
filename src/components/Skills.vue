@@ -7,15 +7,63 @@
         </div>
       </div>
       <div class="row">
+        <div class="column column-25">
+          <div class="title">Language:</div>
+        </div>
+        <div class="column column-75">
+          <div class="detail">Thai (Native Speaker), English (Intermediate)</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-25">
+          <div class="title">Programming:</div>
+        </div>
+        <div class="column column-75">
+          <div class="detail">Javascript, Typescript, Java, Python, C#, PHP, C and C++</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-25">
+          <div class="title">Mobile Platform:</div>
+        </div>
+        <div class="column column-75">
+          <div class="detail">Android</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-25">
+          <div class="title">Web Technology:</div>
+        </div>
+        <div class="column column-75">
+          <div class="detail">Frontend - HTML, CSS, Angular, React, Vue.js and JQuery</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-25"></div>
+        <div class="column column-75">
+          <div class="sub-detail">Backend - Node.js, Express and Spring Boot</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-25">
+          <div class="title">Database:</div>
+        </div>
+        <div class="column column-75">
+          <div class="detail">MySQL (or MariaDB), MongoDB and Firebase realtime database (a bit of knowledge)</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column column-25">
+          <div class="title">Other:</div>
+        </div>
+        <div class="column column-75">
+          <div class="detail">Docker, Git and Basic Linux Command</div>
+        </div>
+      </div>
+      <p>
+      <div class="row">
         <div class="column">
-          <div class="group">
-            <div class="title">Language:</div>
-            <div class="detail">Thai (Native Speaker), English (Intermediate)</div>
-          </div>
-          <div class="group">
-            <div class="title">Programming:</div>
-            <div class="detail">Basic </div>
-          </div>
+          <div class="title">What language (or framework) doesn't in a list. I'm always ready to learn.</div>
         </div>
       </div>
     </div>
@@ -51,22 +99,8 @@ h2 {
   font-size: 2.25em;
 }
 
-.title {
+.title, .detail, .sub-detail {
   font-family: $eng_font;
   font-size: 1.4em;
-  display: inline-block;
-  width: 8em;
-}
-
-.detail {
-  font-family: $eng_font;
-  font-size: 1.4em;
-  display: inline-block;
-}
-
-.sub-detail {
-  font-family: $eng_font;
-  font-size: 1.2em;
-  margin-left: 7.8em;
 }
 </style>
