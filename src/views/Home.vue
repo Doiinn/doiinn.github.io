@@ -4,6 +4,13 @@
     <Profile/>
     <Skills/>
     <Experiences/>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <p>© 2018 WORAPONG MALAIWONG</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -28,12 +35,14 @@ export default {
   mounted: () => {
     sr.reveal('.profile', { duration: 1500, easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)', scale: 0.5 })
     sr.reveal('.skills', { duration: 1500, easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)', scale: 0.5 })
+    sr.reveal('.experiences', { duration: 1500, easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)', scale: 0.5 })
   }
 }
 </script>
 
 <style scoped lang="scss">
   #home {
-    padding-bottom: 8em;
+    font-family: "PT Mono", monospace;
+    padding-bottom: 1em;
   }
 </style>
